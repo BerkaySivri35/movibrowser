@@ -1,4 +1,5 @@
 import { useNavigate, Link } from "react-router-dom";
+import SearchView from "./SearchView";
 
 /* ----------------------------------------------Second way of the make navbar ------------------------------------ */
 
@@ -49,7 +50,7 @@ const Navbar = ({ searchText, setSearchText }) => {
                             // Ekleme yapıyoruz
                             value={searchText}
                             onChange={updateSearchText} />
-                        <button className="btn btn-outline-success" type="submit" onClick={console.log("Button clicked: button")}>Search</button>
+                        <button className="btn btn-outline-success" type="submit" onClick={SearchView}>Search</button>
                     </form>
                 </div>
             </div>
