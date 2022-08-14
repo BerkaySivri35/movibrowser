@@ -33,7 +33,7 @@ function App() {
     <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
       <Routes>
-        <Route path="/moviebrowser" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
 
         <Route path="/about" element={<AboutView />} />
 
